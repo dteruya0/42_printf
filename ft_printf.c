@@ -6,13 +6,11 @@
 /*   By: dteruya <dteruya@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 08:46:36 by dteruya           #+#    #+#             */
-/*   Updated: 2024/11/21 17:32:31 by dteruya          ###   ########.fr       */
+/*   Updated: 2024/12/04 09:53:31 by dteruya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include "stdio.h"
-#include "stdarg.h"
 
 static int	ft_verify(const char tp, va_list args)
 {

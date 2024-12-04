@@ -6,7 +6,7 @@
 /*   By: dteruya <dteruya@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 08:46:30 by dteruya           #+#    #+#             */
-/*   Updated: 2024/11/21 17:22:16 by dteruya          ###   ########.fr       */
+/*   Updated: 2024/12/04 09:56:06 by dteruya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <stdlib.h>
 
 int		ft_printf(const char *format, ...);
-int		ft_strlen(const char *str);
 int		ft_putchar(char c);
 int		ft_putstr(char *str);
 int		ft_putnbr(int nb);
