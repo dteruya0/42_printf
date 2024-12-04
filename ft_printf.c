@@ -6,7 +6,7 @@
 /*   By: dteruya <dteruya@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 08:46:36 by dteruya           #+#    #+#             */
-/*   Updated: 2024/12/04 09:53:31 by dteruya          ###   ########.fr       */
+/*   Updated: 2024/12/04 14:13:48 by dteruya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ int	ft_printf(const char *format, ...)
 	count = 0;
 	type = "cspdiuxX%";
 	va_start(args, format);
+	if (!format)
+		return (-1);
 	while (*format)
 	{
 		if ((*format == '%') && ft_strchr(type, *(format + 1)))
